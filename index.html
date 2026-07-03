@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Emily's personal website: STEM, adventures, spooky-cool style, favorites, and family memories." />
+  <title>Emily's World</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Nunito:wght@400;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="logo" href="#top" aria-label="Emily's World home">
+        <span class="logo-mark">E</span>
+        <span>Emily's World</span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#favorites">Favorites</a>
+        <a href="#adventures">Adventures</a>
+        <a href="#stem">STEM</a>
+        <a href="#gallery">Gallery</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-card">
+        <div class="hero-copy">
+          <p class="eyebrow">spooky • muddy • brave • creative</p>
+          <h1>Welcome to Emily's World</h1>
+          <p class="hero-text">
+            A mysterious, magical, muddy, science-loving corner of the internet
+            for Emily to grow, create, explore, and make her own.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#favorites">Enter the Adventure</a>
+            <a class="btn btn-ghost" href="#stem">See What I'm Learning</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Spooky cute adventure illustration">
+          <div class="moon"></div>
+          <div class="mountain mountain-one"></div>
+          <div class="mountain mountain-two"></div>
+          <div class="monster-card card-one">
+            <span class="card-face">⚡</span>
+            <strong>Storm Sprout</strong>
+          </div>
+          <div class="monster-card card-two">
+            <span class="card-face">🌙</span>
+            <strong>Moon Moth</strong>
+          </div>
+          <div class="hero-girl">
+            <div class="girl-head"></div>
+            <div class="girl-braid braid-left"></div>
+            <div class="girl-braid braid-right"></div>
+            <div class="girl-body"></div>
+            <div class="mud-splash splash-one"></div>
+            <div class="mud-splash splash-two"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="quick-note section-card">
+        <h2>This Website Belongs to Emily</h2>
+        <p>
+          Emily can ask AI to change pictures, add pages, update favorites, write about what she is learning,
+          or build new sections. Big public-contact or business ideas should be checked by a parent first.
+        </p>
+      </section>
+
+      <section id="favorites" class="section-card feature-section">
+        <div class="section-heading">
+          <p class="eyebrow">choose your card</p>
+          <h2>Emily's Favorite Things</h2>
+          <p>Original creature-card style favorites inspired by monster collecting games, but made just for Emily.</p>
+        </div>
+        <div class="card-grid favorite-grid">
+          <article class="flip-card">
+            <div class="flip-inner">
+              <div class="flip-front">
+                <span class="big-icon">🧪</span>
+                <h3>STEM Power</h3>
+                <p>Science experiments, building, testing, and discovering how things work.</p>
+              </div>
+              <div class="flip-back">
+                <h3>Skill Badge</h3>
+                <p>Question asker. Idea builder. Problem solver.</p>
+              </div>
+            </div>
+          </article>
+          <article class="flip-card">
+            <div class="flip-inner">
+              <div class="flip-front">
+                <span class="big-icon">🌙</span>
+                <h3>Spooky-Cool</h3>
+                <p>Dark colors, mystery vibes, moonlight, and a little weird in the best way.</p>
+              </div>
+              <div class="flip-back">
+                <h3>Style Badge</h3>
+                <p>Not ordinary. Not boring. Totally Emily.</p>
+              </div>
+            </div>
+          </article>
+          <article class="flip-card">
+            <div class="flip-inner">
+              <div class="flip-front">
+                <span class="big-icon">🌲</span>
+                <h3>Outdoor Beast</h3>
+                <p>Getting dirty, climbing, exploring, running hard, and playing big.</p>
+              </div>
+              <div class="flip-back">
+                <h3>Adventure Badge</h3>
+                <p>Mud champion. Backyard explorer. Fearless climber.</p>
+              </div>
+            </div>
+          </article>
+          <article class="flip-card">
+            <div class="flip-inner">
+              <div class="flip-front">
+                <span class="big-icon">⭐</span>
+                <h3>Dad Adventures</h3>
+                <p>Special memories with Dad, family time, and safe parent-approved adventures.</p>
+              </div>
+              <div class="flip-back">
+                <h3>Family Badge</h3>
+                <p>Range days, outdoor days, learning days — always safety first.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="adventures" class="section-card split-section">
+        <div>
+          <p class="eyebrow">level up</p>
+          <h2>Adventure Mode</h2>
+          <p>
+            This section can grow into Emily's adventure journal with climbing photos, outdoor memories,
+            muddy wins, favorite games, and cool things she tries.
+          </p>
+          <div class="badge-row" aria-label="Emily adventure badges">
+            <span>🟣 Mud Champion</span>
+            <span>🟢 Climber Girl</span>
+            <span>⚫ Mystery Mode</span>
+            <span>🟡 STEM Builder</span>
+          </div>
+        </div>
+        <div class="mission-panel">
+          <h3>Today's Mission</h3>
+          <p id="missionText">Click the button to get a fun website mission.</p>
+          <button class="btn btn-primary" id="missionButton" type="button">Roll a Mission</button>
+        </div>
+      </section>
+
+      <section id="stem" class="section-card lab-section">
+        <div class="section-heading">
+          <p class="eyebrow">science lab</p>
+          <h2>Things I'm Learning</h2>
+          <p>Emily can update this whenever she learns something new.</p>
+        </div>
+        <div class="timeline">
+          <article>
+            <span class="timeline-dot"></span>
+            <h3>STEM Camp</h3>
+            <p>Add pictures, projects, experiments, and favorite facts from STEM camp here.</p>
+          </article>
+          <article>
+            <span class="timeline-dot"></span>
+            <h3>Build Log</h3>
+            <p>Track things Emily builds, fixes, paints, prints, grows, or invents.</p>
+          </article>
+          <article>
+            <span class="timeline-dot"></span>
+            <h3>Question of the Week</h3>
+            <p>What is one cool question Emily wants to investigate next?</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="gallery" class="section-card gallery-section">
+        <div class="section-heading">
+          <p class="eyebrow">memory wall</p>
+          <h2>Photo Gallery Coming Soon</h2>
+          <p>
+            Upload parent-approved photos later and Emily can say things like,
+            “put this picture in my gallery” or “change the big picture at the top.”
+          </p>
+        </div>
+        <div class="gallery-grid" aria-label="Placeholder gallery cards">
+          <div class="photo-tile">Hero Image</div>
+          <div class="photo-tile">Adventure Photo</div>
+          <div class="photo-tile">STEM Project</div>
+          <div class="photo-tile">Family Memory</div>
+        </div>
+      </section>
+
+      <section class="section-card idea-section">
+        <p class="eyebrow">future upgrades</p>
+        <h2>Pages Emily Could Add Next</h2>
+        <div class="idea-grid">
+          <button class="idea-chip" type="button">Creature Favorites Page</button>
+          <button class="idea-chip" type="button">Climbing Page</button>
+          <button class="idea-chip" type="button">STEM Projects</button>
+          <button class="idea-chip" type="button">Adventure Journal</button>
+          <button class="idea-chip" type="button">Kid Business Page</button>
+          <button class="idea-chip" type="button">Parent-Approved Contact Form</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Made for Emily to learn, create, and make this site her own.</p>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
